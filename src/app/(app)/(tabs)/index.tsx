@@ -29,7 +29,7 @@ function Content() {
               This template sets up Expo and Tailwind (NativeWind) allowing you
               to quickly get started with my YouTube tutorial!
             </Text>
-            <Link href="https://www.youtube.com/@sonnysangha" target="_blank">
+            <Link   href="https://www.youtube.com/@sonnysangha" target="_blank">
               <Text className="text-lg text-center text-blue-500 hover:text-blue-700 underline md:text-xl dark:text-blue-400 dark:hover:text-blue-300">
                 https://www.youtube.com/@sonnysangha
               </Text>
@@ -38,7 +38,7 @@ function Content() {
             <View className="gap-4">
               <Link
                 suppressHighlighting
-                className="flex h-9 items-center justify-center overflow-hidden rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 web:shadow ios:shadow transition-colors hover:bg-gray-900/90 active:bg-gray-400/90 web:focus-visible:outline-none web:focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+                className="flex h-9 items-center justify-center overflow-hidden  rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 web:shadow ios:shadow transition-colors hover:bg-gray-900/90 active:bg-gray-400/90 web:focus-visible:outline-none web:focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
                 href="https://www.youtube.com/@sonnysangha"
               >
                 Visit my YouTube Channel
@@ -73,7 +73,7 @@ function Content() {
 
 function Header() {
   return (
-    <View>
+    <View className="">
       <View className="px-4 lg:px-6 h-14 flex items-center flex-row justify-between ">
         <Link className="font-bold flex-1 items-center justify-center" href="/">
           PAPAFAM
